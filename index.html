@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Frontend Mentor | Fylo data storage component</title>
+    </head>
+    <body>
+        <main>
+            <section class="card_1">
+                <img src="/images/logo.svg" alt="logo" class="logo" />
+
+                <div class="icons">
+                    <span>
+                        <img
+                            src="/images/icon-document.svg"
+                            alt=""
+                            class="icon"
+                        />
+                    </span>
+                    <span>
+                        <img
+                            src="/images/icon-folder.svg"
+                            alt=""
+                            class="icon"
+                        />
+                    </span>
+                    <span>
+                        <img
+                            src="/images/icon-upload.svg"
+                            alt=""
+                            class="icon"
+                        />
+                    </span>
+                </div>
+            </section>
+
+            <section class="card_2">
+                <p>You’ve used 815 GB of your storage</p>
+
+                <div class="progress">
+                    <div class="bar">
+                        <div class="active">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="count">
+                        <span>0 GB</span>
+                        <span>1000 GB</span>
+                    </div>
+                </div>
+
+                <div class="tooltip">185 <span class="left">GB LEFT</span></div>
+            </section>
+        </main>
+    </body>
+</html>
